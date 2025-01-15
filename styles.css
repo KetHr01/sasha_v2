@@ -1,0 +1,204 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(194, 158, 110);
+    width: 99%;
+}
+nav{
+    background-color: rgb(209, 171, 121);
+    color: rgb(255, 255, 255);
+    width: 99%;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-around;
+    margin: 10px;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav a:hover{
+    background-color: gray;
+    padding: 3px;
+    font-size: 22px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.about_us{
+    background-color: burlywood;
+    border-radius: 25px;
+    padding: 10px;
+    width: 99%;
+    margin: 10px;
+}
+
+.about_us h1{
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: rgb(194, 158, 110);
+    border-radius: 10px;
+}
+
+.lop {
+    display: inline-block; 
+    white-space: normal; 
+    text-align: justify; 
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    width: 1250px;
+    padding: 15px;
+}
+
+.about_us img{
+    width: 250px ;
+    height: 250px;
+    margin: 10px;
+}
+
+.about{
+    display: flex;
+}
+
+.tovar{
+    background-color: burlywood;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.korm{
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: rgb(194, 158, 110);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.prooduct {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(246, 223, 194);
+}
+
+.k1{
+    font-size:20px ;
+    font-weight: bold;
+}
+
+.foor{
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;   
+    text-decoration: none;
+}
+
+.for{
+    text-decoration: none;
+}
+
+.foor:hover{
+    font-size: 25px;
+    transition: 2s;
+    color: orange;
+    background-color: white;
+}
+
+.budymky{
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: rgb(194, 158, 110);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.tovar2{
+    background-color: burlywood;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prooduct2{
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(246, 223, 194);
+}
+
+.k2{
+    font-size:20px ;
+    font-weight: bold;
+}
+
+.top{
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: rgb(194, 158, 110);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.typ{
+    background-color: burlywood;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+.typ img{
+    border-radius: 55px;
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.typ p{
+    font-size: 17px ;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    
+}
+
+.typ p:hover{
+    font-size: 22px;
+    transition: 2s;
+}
